@@ -1,0 +1,135 @@
+/*===================================== GERAL ===========================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+    /*Modo Dark
+    background-color: black;
+    color: white;*/
+}
+
+body {
+    background-color: rgb(55, 40, 68);
+}
+
+/*===================================== FORMULÁRIO =========================================*/
+
+#titulo {
+    color: #c797a9;
+    font-family: 'Press Start 2P';
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#subtitulo {
+    color: #ffffff;
+    margin-top: 1em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26em;
+    padding: 1em;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 5px 5px 5px black;
+}
+
+fieldset {
+    font-size: 1em;
+    color: rgb(82, 49, 112);
+}
+
+fieldset:nth-child(1) {
+    border: none;
+}
+
+input, select, button, textarea {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px black;
+    display: block;
+}
+
+.campo input[type="email"] {
+    width: 20em;
+}
+
+.campo textarea {
+    margin-bottom: 1em;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: rgb(245, 194, 202);
+}
+
+.botao {
+    font-size: 1.2em;
+    background: rosybrown;
+    border: 0;
+    
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px darkslategray;
+
+    display: block;
+    margin: 1em auto 1em auto;
+}
+
+.botao:hover {
+    background-color: #ccbbff;
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow: none;
+}
+
+.botao, select {
+    cursor: pointer;
+}
+
+#check {
+    padding: 1em;
+}
+
+#check label {
+    font-weight: bold;
+    margin-right: 1em;
+    line-height: 2em;
+}
+
+img {
+    width: 1em;
+}
