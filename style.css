@@ -54,6 +54,10 @@ fieldset:nth-child(1) {
     border: none;
 }
 
+.grupo:after {
+    clear: both;
+}
+
 input, select, button, textarea {
     border-radius: 5px;
 }
